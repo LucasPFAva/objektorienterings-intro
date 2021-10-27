@@ -33,3 +33,14 @@ a_car = Car('Volvo', 'Blå', 1587)
 a_car.get_brand()
 a_car.set_brand('Renault')
 a_car.get_brand()
+
+
+
+
+# 3. Det som händer är att memberfunktionen av klassen Car, get_brand() körs. 
+# Detta printar ut member variablen 'brand'. 
+# Efter det används funktionen set_brand som simplet sätter member variablen 'brand' till new_brand, 
+# vilket är argumentet för member funktionen. 
+# Efteråt används get_brand() ingen vilket printar ut den nya värdet som satts som 'brand' i denna instans av klassen Car.
+
+# 4.
